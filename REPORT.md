@@ -45,8 +45,8 @@
 В `lab4_buggy/src/simulation.py` исправить диапазон на `range(1, steps + 1)`.
 
 Доказательства:
-- ![screenshot_off_by_one_range](2025-12-24_18-45-02.png)
-- ![screenshot_steps_output](2025-12-24_18-46-09.png)
+- ![screenshot_off_by_one_range](screenshots/2025-12-24_18-45-02.png)
+- ![screenshot_steps_output](screenshots/2025-12-24_18-46-09.png)
 
 ---
 
@@ -72,7 +72,7 @@
 В `lab4_buggy/src/main.py` сделать разбор в порядке `steps`, затем `seed`.
 
 Доказательства:
-- ![screenshot_input_parse_steps_seed](2025-12-24_19-13-39.png)
+- ![screenshot_input_parse_steps_seed](screenshots/2025-12-24_19-13-39.png)
 
 ---
 
@@ -99,8 +99,8 @@
 В `lab4_buggy/src/casino.py` исправить вызов на `goose.attack(player, damage)`.
 
 Доказательства:
-- ![screenshot_war_attack_exception](2025-12-24_19-43-58.png)
-- ![screenshot_stack_war_attack](2025-12-24_19-44-13.png)
+- ![screenshot_war_attack_exception](screenshots/2025-12-24_19-43-58.png)
+- ![screenshot_stack_war_attack](screenshots/2025-12-24_19-44-13.png)
 
 ---
 
@@ -126,8 +126,8 @@
 В `lab4_buggy/src/casino.py` создать список внутри функции без аргумента по умолчанию.
 
 Доказательства:
-- ![screenshot_events_grow](2025-12-24_19-58-37.png)
-- ![screenshot_events_len](2025-12-24_19-58-56.png)
+- ![screenshot_events_grow](screenshots/2025-12-24_19-58-37.png)
+- ![screenshot_events_len](screenshots/2025-12-24_19-58-56.png)
 
 ---
 
@@ -153,5 +153,5 @@
 В `lab4_buggy/src/casino.py` заменить условие на `if bet_amount <= 0:`.
 
 Доказательства:
-- ![screenshot_if_bet_condition](2025-12-24_20-03-09.png)
-- ![screenshot_bet_locals](2025-12-24_20-03-46.png)
+- ![screenshot_if_bet_condition](screenshots/2025-12-24_20-03-09.png)
+- ![screenshot_bet_locals](screenshots/2025-12-24_20-03-46.png)
