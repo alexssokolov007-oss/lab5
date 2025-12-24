@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug src.main (module)",
+      "type": "python",
+      "request": "launch",
+      "module": "src.main",
+      "cwd": "${workspaceFolder}/lab4_buggy"
+    }
+  ]
+}
